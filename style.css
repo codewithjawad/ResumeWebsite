@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    font-size: 14px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;}
+main{
+    width: 1000px;
+    margin: 30px;
+    padding-left: 140px;
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+.navigation{
+padding-top: 10px;
+padding-left: 15px;
+
+background-color: rgb(44, 44, 44);
+color: white;
+display: grid;
+grid-gap: -10px;
+}
+#icon{
+    margin-left: 10px;
+    position: relative;
+    left: -10px;
+    font-size: xx-large;
+    
+}
+#icon:hover{
+    box-shadow: 4px 2px 20px 4px rgb(78, 78, 78);
+    transition: 1s;
+    transform: scale(1.5);
+    background-color: aqua;
+
+}
+.details{
+    padding: 20px;
+    box-shadow: 4px 2px 20px 4px rgba(128, 128, 128, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#img{
+    width: 280px;
+    height: 550px;
+    box-shadow: 4px 2px 20px 4px rgba(128, 128, 128, 0.5);
+   
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   grid-gap: 10px;
+}
+.skills{
+width: 320px;
+
+}
